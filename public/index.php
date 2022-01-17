@@ -63,5 +63,17 @@
         <script src="public/assets/js/jquery.waypoints.min.js"></script>
         <script src="public/assets/js/jquery.fittext.min.js"></script>
         <script src="public/assets/js/main.js"></script>
+        <?php if(isset($_GET['goto'])) {?>
+        <script> jQuery(document).ready(function($) { 
+            $target = $("#<?=$_GET['goto']?>");
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 800, 'swing', function () {
+	        
+	    }); 
+
+	    });
+	    </script>
+        <?php } ?>
 	</body>
 </html>

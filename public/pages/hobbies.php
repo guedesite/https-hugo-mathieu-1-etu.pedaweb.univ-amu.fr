@@ -2,7 +2,7 @@
 <header id="home" class="ytback">
 
 
-      <?php include("public/entete.php")?>
+     <?php include("public/entete.php")?>
 
       <div class="row banner" >
          <div class="banner-text">

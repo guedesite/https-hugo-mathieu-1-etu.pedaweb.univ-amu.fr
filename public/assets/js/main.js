@@ -1,10 +1,14 @@
-/*-----------------------------------------------------------------------------------
-/*
-/* Init JS
-/*
------------------------------------------------------------------------------------*/
+	function makeCurrent(el) {
+		for(let i = 0; i < el.parentElement.parentElement.children.length; i++) {
+			el.parentElement.parentElement.children[i].classList = [];
+		}
+		el.parentElement.classList.add("current");
+	
+	}
+
 
  jQuery(document).ready(function($) {
+
 
 /*----------------------------------------------------*/
 /* FitText Settings
@@ -21,7 +25,7 @@
 
    $('.smoothscroll').on('click',function (e) {
 	    e.preventDefault();
-
+		makeCurrent(this);
 	    var target = this.hash,
 	    $target = $(target);
 
@@ -31,34 +35,6 @@
 	        window.location.hash = target;
 	    });
 	});
-
-
-/*----------------------------------------------------*/
-/* Highlight the current section in the navigation bar
-------------------------------------------------------*/
-
-	var sections = $("section");
-	var navigation_links = $("#nav-wrap a");
-
-	sections.waypoint({
-
-      handler: function(event, direction) {
-
-		   var active_section;
-
-			active_section = $(this);
-			if (direction === "up") active_section = active_section.prev();
-
-			var active_link = $('#nav-wrap a[href="#' + active_section.attr("id") + '"]');
-
-         navigation_links.parent().removeClass("current");
-			active_link.parent().addClass("current");
-
-		},
-		offset: '35%'
-
-	});
-
 
 
 
