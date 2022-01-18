@@ -10,6 +10,16 @@
  jQuery(document).ready(function($) {
 
 
+	var els = document.querySelectorAll(".zoom-image");
+	for(let i = 0; i < els.length; i++) {
+		els[i].addEventListener("click", function() {
+			document.getElementById("zoom-image-modal").style.display = "block";
+			document.getElementById("zoom-image-close").style.display = "block";
+			document.getElementById("zoom-image-modal-img").src = els[i].src;
+		});
+	}
+
+
 /*----------------------------------------------------*/
 /* FitText Settings
 ------------------------------------------------------ */
@@ -25,7 +35,9 @@
 
    $('.smoothscroll').on('click',function (e) {
 	    e.preventDefault();
-		makeCurrent(this);
+	    if(this.parentElement.parentElement.id == "nav") {
+			makeCurrent(this);
+		}
 	    var target = this.hash,
 	    $target = $(target);
 
@@ -95,7 +107,6 @@ function resetAnim() {
 	    element.beginElement();
 	  });
 }
-
 
 
 

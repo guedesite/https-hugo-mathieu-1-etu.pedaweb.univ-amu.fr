@@ -7,7 +7,7 @@
       <div class="row banner" >
          <div class="banner-text">
             <h1 class="responsive-headline" data-trad="entete-titre">I'm Hugo Mathieu.</h1>
-            <h3 data-trad="entete-description">I'm a Marseille based computer science student with a passion for <span>web developement</span>, <span>web design</span> and <span>office developement</span>. Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            <h3 data-trad="entete-description">I am an 18-year-old computer science student based in Marseille with a passion for <span>web developement</span>, <span>web design</span> and <span>office developement</span>. Let's <a class="smoothscroll" href="#about">start scrolling</a>
             and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
             <hr />
             <ul class="social">
@@ -62,7 +62,7 @@
 
                <div class="columns download">
                   <p>
-                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                     <a href="http://localhost/public/assets/file/CV%20Hugo%20Mathieu%20V3%20TP4.pdf" target="_blank" class="button"><i class="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
 
@@ -84,7 +84,7 @@
       <div class="row education">
 
          <div class="three columns header-col">
-            <h1><span>Education</span></h1>
+            <h1><span>School Career</span></h1>
          </div>
 
          <div class="nine columns main-col">
@@ -94,16 +94,21 @@
 
                <div class="twelve columns">
 
-                  <h3>Diplôme du Baccalauréat</h3>
-                  <p class="info">Lycée Bachelard, 32 avenue de l'Europe, 77500 Chelles <span>&bull;</span> <em class="date">2021</em></p>
+                  <h3>B.U.T Networks and Telecommunications</h3>
+                  <p class="info">Academic Institute of Technology of Aix-Marseille University <span>&bull;</span> <em class="date">2021-2023</em></p>
+					<p style="margin-top:-20px;">171 Av. de Luminy, 13288 Marseille, France</p>
+               </div>
+               
+                <div class="twelve columns" style="margin-top:25px;">
 
-                  <p>
-                  Obtention du Baccalauréat Sciences et Technologies de l'industrie et du Développement Durable mention assez-bien, spécialité Innovation Technologique & Ecoconception. 
-                  </p>
-
+                  <h3>Baccalaureate in Industrial Sciences and Technologies, specialty Technological Innovation and Eco-design</h3>
+                  <p class="info">Bachelard high school, with honors <span>&bull;</span> <em class="date">2020-2021</em></p>
+					<p style="margin-top:-20px;">32 Av. de l'Europe, 77500 Chelles, France</p>
                </div>
 
-            </div> <!-- item end -->
+            </div> 
+            
+            <!-- item end -->
 
          </div> <!-- main-col end -->
 
@@ -124,32 +129,12 @@
 
                <div class="twelve columns">
 
-                  <h3>Awesome Design Studio</h3>
-                  <p class="info">Senior UX Designer <span>&bull;</span> <em class="date">March 2010 - Present</em></p>
+                  <h3>Freelance</h3>
+                  <p class="info">Full stack developer <span>&bull;</span> <em class="date">2018 - Present</em></p>
 
                   <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Super Cool Studio</h3>
-                  <p class="info">UX Designer <span>&bull;</span> <em class="date">March 2007 - February 2010</em></p>
-
-                  <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                  I worked on many projects, including web projects still online (<a href="https://CraftMyWebSite.fr" target="_blank">CraftMyWebSite.fr</a>, <a href="https://BvrSport.fr" target="_blank">BvrSport.fr</a>)
+                  or various office projects such as a database management and editing tool.
                   </p>
 
                </div>
@@ -171,8 +156,23 @@
 
          <div class="nine columns main-col">
 
-            <p>My personal experiences gave me the desire to make a living out of IT development. By self-training I was able to join the development of an Open Source CMS project named CraftMyWebSite, I acquired multiple computer skills such as web development, management and use of databases in office or web applications, creation and deployment of android application, creation and deployment of office applications and in a more personal context, the manual manufacture of small devices under arduino responding to complex tasks. I have also recently been able to self-train in the S.E.O and use my knowledge acquired during my research on this OpenSource project.
-            </p>
+            <p><span class="preword-skill">Networks:</span> TCP/IP architecture - IPv4, IPv6<br/>
+            Dynamic Routing Protocols - RIP, OSPF, EIGRP<br/>
+			Configuration, deployment, administration, maintenance of Ethernet LAN networks
+            (2960 Series Switches, 2800 Series Routers)<br/>
+            Security - ACL, NAT/PAT and DNC Services, DHCP</p>
+            
+            <p><span class="preword-skill">IT :</span> Windows server network services administration<br/>
+            System and network administration with Gnu/Linux<br/>
+            KVM Virtualization</p>
+            
+            <p><span class="preword-skill">Telecoms:</span> Digital/Analog Signal Processing, MATLAB<br/>
+            Business telephony - Call center Aastra, Asterisk, IP telephony (Aastra, Grandstream, softphone)<br/>
+            Electronics (analog/digital), Microcontrollers, Arduino<br/>
+            Optical fiber - splicing / soldering and measurement (reflectometer)</p>
+            
+            <p><span class="preword-skill">Office:</span> MS Office (Word, Excel), OpenOffice, Github, PhpMyAdmin, Photoshop, Eclipse</p>
+
 
 				<div class="bars">
 
@@ -220,15 +220,14 @@
 
             <div class="two columns header-col">
 
-               <h1><span>Get In Touch.</span></h1>
+               <h1><span></span></h1>
 
             </div>
 
             <div class="ten columns">
 
-                  <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                  voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                  <p class="lead">
+                  Hi there, contact me if you want a collaboration for one of your projects !
                   </p>
 
             </div>
@@ -260,7 +259,7 @@
 
                   <div>
                      <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="15" style="resize: none;" id="contactMessage" name="contactMessage"></textarea>
                   </div>
 
                   <div>

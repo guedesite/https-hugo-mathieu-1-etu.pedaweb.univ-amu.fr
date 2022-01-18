@@ -13,7 +13,7 @@
       <div id="bgndVideo" data-property="{videoURL:'https://www.youtube.com/watch?v=UeK_WhqUdrY',containment:'.ytback',optimizeDisplay:true,stopMovieOnBlur:false,loop:true,showYTLogo:false,addRaster:false,showControls:false,autoPlay:true, mute:true, startAt:31, opacity:1}"></div>
    </header> 
 	<div class="scrolldown">
-             <a class="smoothscroll" href="#about">
+             <a class="smoothscroll" href="#about" data-demo="5">
              <span></span>
             </a>
       </div>
@@ -32,31 +32,7 @@
 
             <h2>About Me</h2>
 
-            <p>My personal experiences gave me the desire to make a living out of IT development. By self-training I was able to join the development of an Open Source CMS project named CraftMyWebSite, I acquired multiple computer skills such as web development, management and use of databases in office or web applications, creation and deployment of android application, creation and deployment of office applications and in a more personal context, the manual manufacture of small devices under arduino responding to complex tasks. I have also recently been able to self-train in the S.E.O and use my knowledge acquired during my research on this OpenSource project.
-            </p>
-
-            <div class="row">
-
-               <div class="columns contact-details">
-
-                  <h2>Contact Details</h2>
-                  <p class="address">
-						   <span>Hugo Mathieu</span><br>
-						   <span>163 Av. de Luminy<br>
-						         13009 Marseille
-                     </span><br>
-                     <span>hugo.mathieu771@gmail.com</span>
-					   </p>
-
-               </div>
-
-               <div class="columns download">
-                  <p>
-                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div>
-
-            </div> <!-- end row -->
+            <p>Since my childhood, I had every opportunity to know what I would like in life and what I will do later. Very early, I started sports, DIY and video games.</p>
 
          </div> <!-- end .main-col -->
 
@@ -67,28 +43,79 @@
 
    <!-- Resume Section
    ================================================== -->
-   <section id="resume">
+   <section id="resume" >
 
       <!-- Education
       ----------------------------------------------- -->
-      <div class="row education">
+      <div class="row" id="sport" data-demo="6">
 
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
+         <div class="five columns header-col">
+            <img class="zoom-image" style="float:left;margin-bottom:20px;margin-left:5%;" src="public/assets/img/hand-1.gif" >
          </div>
 
-         <div class="nine columns main-col">
+         <div class="five columns main-col">
 
 
             <div class="row item">
 
                <div class="twelve columns">
 
-                  <h3>Diplôme du Baccalauréat</h3>
-                  <p class="info">Lycée Bachelard, 32 avenue de l'Europe, 77500 Chelles <span>&bull;</span> <em class="date">2021</em></p>
+                  <h3 style="text-align:center;"> <i class="fas fa-volleyball-ball"></i> HandBall</h3>
+                  <p style="text-align:center;">
+                  I have done a lot of sports in my life, but I found my place in handball, 
+                  by chance I joined the team of my city (Villeparisis at the time) on a whim as Goal keeper</p>
 
-                  <p>
-                  Obtention du Baccalauréat Sciences et Technologies de l'industrie et du Développement Durable mention assez-bien, spécialité Innovation Technologique & Ecoconception. 
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div>
+      
+       <div class="row" >
+
+         <div class="five columns header-col">
+            <div class="row item">
+
+               <div class="twelve columns">
+                  <p style="text-align:center;">
+                 in 2020, my team and I were at our best level, victory after victory in the departmental tournament. unfortunately everything was cut off because of the covid. 
+                 Since then I have stopped team sport to focus on my personal projects, but I have excellent memories of it and I would be ready to do it again.
+                  </p>
+
+               </div>
+
+            </div>
+         </div>
+
+         <div class="five columns header-col" >
+				<img class="zoom-image" style="float:right;margin-right:5%;margin-bottom:20px;" src="public/assets/img/hand-2.gif" >
+         </div>
+      </div>
+      
+      <hr style="margin-top:50px; margin-bottom:60px;width:60%;margin-left:20%;margin-right:20%"></hr>
+
+		
+		<div class="row" id="manual" data-demo="7">
+		
+
+         <div class="five columns header-col">
+            <img class="zoom-image" style="float:left;margin-bottom:20px;margin-left:5%;" src="public/assets/img/manual-1.gif" >
+         </div>
+
+         <div class="five columns main-col">
+
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3 style="text-align:center;">Manual Work</h3>
+                  <p style="text-align:center;">
+                  when I was young, I saw my father doing renovation work to earn some money, so I had a whole workshop at my disposal, 
+                  I started tinkering at a very young age and trying to understand how
+ 				they worked, find out how electricity works for myself.
                   </p>
 
                </div>
@@ -97,49 +124,51 @@
 
          </div> <!-- main-col end -->
 
-      </div> <!-- End Education -->
+      </div>
+      
+       <div class="row" data-demo="8">
 
-
-      <!-- Work
-      ----------------------------------------------- -->
-      <div class="row work">
-
-         <div class="three columns header-col">
-            <h1><span>Work</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
+         <div class="five columns header-col">
             <div class="row item">
 
                <div class="twelve columns">
-
-                  <h3>Awesome Design Studio</h3>
-                  <p class="info">Senior UX Designer <span>&bull;</span> <em class="date">March 2010 - Present</em></p>
-
-                  <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                  <p  style="text-align:center;">
+                  Today, I am able to make electronic objects to make my life easier with recycled materials. 
+                  For example I recently finished an audio switch, allowing me to choose which audio input activated and which audio output activated, 
+                  with a potentiometer to adjust the volume and a bluetooth input implemented.
                   </p>
 
                </div>
 
-            </div> <!-- item end -->
+            </div>
+         </div>
+
+         <div class="five columns header-col" >
+				<img class="zoom-image" style="float:right;margin-right:5%;margin-bottom:20px;" src="public/assets/img/manual-2.png" >
+         </div>
+
+      </div>
+      
+     <hr style="margin-top:50px; margin-bottom:60px;width:60%;margin-left:20%;margin-right:20%"></hr>
+
+		
+		<div class="row" id="game">
+
+         <div class="five columns header-col">
+            <img class="zoom-image" style="float:left;margin-bottom:20px;margin-left:5%;" src="public/assets/img/game-1.gif" >
+         </div>
+
+         <div class="five columns main-col">
+
 
             <div class="row item">
 
                <div class="twelve columns">
 
-                  <h3>Super Cool Studio</h3>
-                  <p class="info">UX Designer <span>&bull;</span> <em class="date">March 2007 - February 2010</em></p>
-
-                  <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                  <h3 style="text-align:center;">Video Game</h3>
+                  <p style="text-align:center;">
+                  Also very young, I was put behind a computer screen and I learned computer development by myself, but at the same time I relax on various video games.
+                   My favorite video game is brawhalah, 5 years on the game and still the same desire to play.
                   </p>
 
                </div>
@@ -148,138 +177,9 @@
 
          </div> <!-- main-col end -->
 
-      </div> <!-- End Work -->
-
-
-      <!-- Skills
-      ----------------------------------------------- -->
-      <div class="row skill">
-
-         <div class="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <p>My personal experiences gave me the desire to make a living out of IT development. By self-training I was able to join the development of an Open Source CMS project named CraftMyWebSite, I acquired multiple computer skills such as web development, management and use of databases in office or web applications, creation and deployment of android application, creation and deployment of office applications and in a more personal context, the manual manufacture of small devices under arduino responding to complex tasks. I have also recently been able to self-train in the S.E.O and use my knowledge acquired during my research on this OpenSource project.
-            </p>
-
-				<div class="bars">
-
-				   <ul class="skills">
-					   <li><span class="bar-expand bar-90"></span><em>PHP</em></li>
-                  <li><span class="bar-expand bar-100"></span><em>HTML5</em></li>
-						<li><span class="bar-expand bar-80"></span><em>JavaScript</em></li>
-						<li><span class="bar-expand bar-70"></span><em>CSS3</em></li>
-						<li><span class="bar-expand bar-100"></span><em>Java</em></li>
-                  <li><span class="bar-expand bar-75"></span><em>SQL</em></li>
-					</ul>
-
-				</div><!-- end skill-bars -->
-
-			</div> <!-- main-col end -->
-
-      </div> <!-- End skills -->
+      </div>
 
    </section> <!-- Resume Section End-->
 
 
-   <!-- Portfolio Section
-   ================================================== -->
-   <section id="work">
-
-      <div class="row">
-
-         <div class="twelve columns collapsed">
-
-            <h1>Check Out a Summary of my Year on Github.</h1>
-
-            	<img onload="SVGInject(this)" class="svg-profil" src="public/assets/img/profile-green-animate.svg" />
-
-            </div> <!-- portfolio-wrapper end -->
-
-         </div> <!-- twelve columns end -->
-
-
-
-   </section> <!-- Portfolio Section End-->
-
-   <section id="contact">
-
-         <div class="row section-head">
-
-            <div class="two columns header-col">
-
-               <h1><span>Get In Touch.</span></h1>
-
-            </div>
-
-            <div class="ten columns">
-
-                  <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                  voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                  </p>
-
-            </div>
-
-         </div>
-
-         <div class="row">
-
-            <div class="eight columns">
-
-               <!-- form -->
-               <form action="" method="post">
-					<fieldset>
-
-                  <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
-                  </div>
-
-                  <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
-                  </div>
-
-                  <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-                  </div>
-
-                  <div>
-                     <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <button class="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="public/assets/img/loader.gif">
-                     </span>
-                  </div>
-
-					</fieldset>
-				   </form>
-            </div>
-
-
-            <aside class="four columns footer-widgets">
-
-               <div class="widget widget_contact">
-
-					   <h4>Address</h4>
-					   <p class="address">
-						   Hugo Mathieu<br>
-						   163 Av. de Luminy<br>
-						   13009 Marseille<br>
-						   <span>(+33)6 12 34 56 78</span>
-					   </p>
-
-				   </div>
-            </aside>
-
-      </div>
-
-   </section> <!-- Contact Section End-->
+ 

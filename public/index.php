@@ -1,8 +1,9 @@
 <?php 
+use modele\app\urlRewrite;
 ?>
 <html lang="fr">
 	<head>
-    	<base href="/" />
+    	<base href="<?= urlRewrite::getSiteUrl() ?>" />
     	
     	<meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,23 +14,23 @@
     
         <!-- SEO -->
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://bvrsport.fr">
-        <meta property="og:image" content="https://bvrsport.fr/favicon.jpg">
-        <meta property="og:image:alt" content="C'est beau, c'est vrai !">
-        <meta property="og:site_name" content="BvrSport" />
+        <meta property="og:url" content="https://hugo-mathieu-1-etu.pedaweb.univ-amu.fr">
+        <meta property="og:image" content="https://hugo-mathieu-1-etu.pedaweb.univ-amu.fr/favicon.ico">
+        <meta property="og:image:alt" content="Mon CV Web intéractif !">
+        <meta property="og:site_name" content="Hugo Mathieu" />
     
-    	<meta name="twitter:title" content="BvrSport">
-    	<meta name="twitter:description" content="C'est beau, c'est vrai !">
-    	<meta name="twitter:image" content="https://bvrsport.fr/favicon.jpg">
+    	<meta name="twitter:title" content="Hugo Mathieu">
+    	<meta name="twitter:description" content="Mon CV Web intéractif !">
+    	<meta name="twitter:image" content="https://hugo-mathieu-1-etu.pedaweb.univ-amu.fr/favicon.ico">
                                 
-    	<meta property="og:title" content="BvrSport">
-    	<meta property="og:description" content="C'est beau, c'est vrai !">
+    	<meta property="og:title" content="Hugo Mathieu">
+    	<meta property="og:description" content="Mon CV Web intéractif !">
     
     
-        <meta name="author" content="Guedesite, Hugo Mathieu, BvrSport" />
-        <meta name="publisher" content="BvrSport"/>
-        <meta name="description" content="C'est beau, c'est vrai !">
-        <meta name="copyright" content="BvrSport"/>
+        <meta name="author" content="Guedesite, Hugo Mathieu" />
+        <meta name="publisher" content="Guedesite"/>
+        <meta name="description" content="Mon CV Web intéractif !">
+        <meta name="copyright" content="Guedesite"/>
     
         <meta name="robots" content="follow, index, all">
         <meta name="google" content="notranslate">
@@ -74,6 +75,29 @@
 
 	    });
 	    </script>
-        <?php } ?>
+        <?php } 
+        if(isset($_GET['demo'])) {?>
+            <script>
+				function loopDemo() {
+					$.get("https://hugo-mathieu-1-etu.pedaweb.univ-amu.fr/extranet/index.php?action=demo&data=get", function(data, status){
+			    	    data = data.replaceAll(" ", "");
+			    	    if(data != "" && data != " ") {
+			    	    	console.log(data);
+			    	    	if(document.getElementById(data) != null) {
+			    	    		document.getElementById(data).click();
+			    	    		console.log(data);
+			    	    	}
+			    	    }
+			    	  });
+					setTimeout(loopDemo, 50);
+				}
+
+				setTimeout(loopDemo, 50);
+				console.log("aa");
+
+            </script>
+        <?php }
+        
+        ?>
 	</body>
 </html>

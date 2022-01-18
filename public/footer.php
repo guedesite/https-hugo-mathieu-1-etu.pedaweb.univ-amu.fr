@@ -12,8 +12,6 @@
             </ul>
 
             <ul class="copyright">
-               <li>&copy; Copyright 2014 CeeVee</li>
-               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>  
                <li><a href="https://github.com/guedesite/https-hugo-mathieu-1-etu.pedaweb.univ-amu.fr" target="_blank">See on Github</a></li> 
             </ul>
 
