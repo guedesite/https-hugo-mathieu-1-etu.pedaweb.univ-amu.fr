@@ -45,6 +45,7 @@ use modele\app\urlRewrite;
         <script src="public/assets/js/jquery.mb.ytplayer.min.js"></script>
         <script src="public/assets/js/svg.inject.js"></script>
         
+        <title>Hugo Mathieu | Mon CV Web intéractif !</title>
     </head>
 	<body style="background-color:#333">
 		
