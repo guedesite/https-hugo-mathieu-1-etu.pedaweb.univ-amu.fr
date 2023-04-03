@@ -1,4 +1,3 @@
-
 <header id="home" class="ytback">
 
 
@@ -7,7 +6,7 @@
       <div class="row banner" >
          <div class="banner-text">
             <h1 class="responsive-headline" data-trad="entete-titre">I'm Hugo Mathieu.</h1>
-            <h3 data-trad="entete-description">I am an 19-year-old computer science student based in Marseille with a passion for <span>web developement</span>, <span>web design</span> and <span>office developement</span>. Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            <h3 data-trad="entete-description">I am an 19-year-old computer science student based in Marseille with a passion for <span>web development</span>, <span>web design</span> and <span>office development</span>. Let's <a class="smoothscroll" href="#about">start scrolling</a>
             and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
             <hr />
             <ul class="social">
@@ -162,18 +161,20 @@
             BGPv4-MP-BGP interconnection, PPP, Wireshark analysis, troubleshooting<br/>
 			   Configuration, deployment, administration, maintenance of Ethernet LAN networks
             (c2960, c3560, ISR 2911)<br/>
-            Security - ACL, NAT/PAT, Services - DHCP, DNS, Firewall STORMSHIELD, VPNs<br/>
+            Security - ACL, NAT/PAT, Services - DHCP, DNS, Firewall STORMSHIELD, ZBF, VPNs<br/>
             Wiring, manufacturing, testing, certification with FLUKE</p>
             
-            <p><span class="preword-skill">IT :</span> Solution deployment - Python, Java, Bash<br/>
+            <p><span class="preword-skill">IT :</span> Solution deployment - Python, Java, Bash, PowerShell<br/>
             Data base - MySQL, MariaDB<br/>
-            Creation of dynamic website - HTML5, CSS3, PHP, JAVASCRIPT, SEO<br/>
+            Creation of dynamic website - HTML5, CSS3, PHP, JAVASCRIPT, AJAX, CGI, SEO<br/>
+            Service Apache 2, NGINX, IIS<br/>
+      		Pentesting, SQL injection, XSS<br/>
             System and network administration with Gnu/Linux<br/>
             System and network administration with Windows server<br/>
             KVM Virtualization</p>
             
             <p><span class="preword-skill">Telecoms:</span> Digital/Analog Signal Processing, MATLAB<br/>
-            Electronics (analog/digital), Microcontrôleurs, Arduino, Raspberry, STM32, ESP32, PCB on EasyEda<br/>
+            Electronics (analog/digital), Microcontrôleurs, Arduino, Raspberry, STM32, ESP32, AIR101, PCB on EasyEda<br/>
             Business telephony - Call center Aastra, Asterisk, IP telephony (Aastra, Grandstream, softphone)<br/>
             Optical fiber - splicing / soldering and measurement (reflectometer)</p>
             
@@ -184,11 +185,14 @@
 
 				   <ul class="skills">
 					   <li><span class="bar-expand bar-80"></span><em>PHP</em></li>
-                  <li><span class="bar-expand bar-100"></span><em>HTML5</em></li>
-						<li><span class="bar-expand bar-80"></span><em>JavaScript</em></li>
-						<li><span class="bar-expand bar-70"></span><em>CSS3</em></li>
-						<li><span class="bar-expand bar-100"></span><em>Java</em></li>
-                  <li><span class="bar-expand bar-75"></span><em>SQL</em></li>
+                  <li><span class="bar-expand bar-90"></span><em>HTML5/JavaScript/CSS3</em></li>
+						<li><span class="bar-expand bar-90"></span><em>AJAX</em></li>
+                  <li><span class="bar-expand bar-100"></span><em>Java</em></li>
+                   <li><span class="bar-expand bar-60"></span><em>PYTHON</em></li>
+                   <li><span class="bar-expand bar-80"></span><em>MYSQL/MARIADB</em></li>
+                   <li><span class="bar-expand bar-50"></span><em>BASH</em></li>
+                   <li><span class="bar-expand bar-50"></span><em>PowerShell</em></li>
+                   <li><span class="bar-expand bar-80"></span><em>APACHE2/NGINX/IIS</em></li>
 					</ul>
 
 				</div><!-- end skill-bars -->
@@ -196,6 +200,22 @@
 			</div> <!-- main-col end -->
 
       </div> <!-- End skills -->
+   <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Certifications</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p><span class="preword-skill">CCNA1 :</span> Introduction to Networks (ITN)</p>
+            <p><span class="preword-skill">CCNA2 :</span> Switching, Routing, and Wireless Essentials (SRWE)</p>
+         <p><span class="preword-skill">CSNA :</span> Certification Stormshield Network Administrator</p>
+		</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section>
 
    </section> <!-- Resume Section End-->
 

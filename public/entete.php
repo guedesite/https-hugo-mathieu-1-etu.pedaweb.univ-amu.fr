@@ -15,6 +15,7 @@
             <li <?=((((isset($_GET['page']) && $_GET['page'] == "accueil") || !isset($_GET['page'])) && (isset($_GET['goto']) && $_GET['goto']=="work" )) ? "class='current'" : "")?>><a class="<?=(((isset($_GET['page']) && $_GET['page'] == "accueil") || !isset($_GET['page'])) ? "smoothscroll" : "")?>" href="<?=(isset($_GET['page']) && $_GET['page'] == "accueil" || !isset($_GET['page']) ? "#" : "index.php?page=accueil&goto=")?>work" id="demo3" onclick="resetAnim();" data-trad="entete-nav-works">Works</a></li>
             <li <?=((((isset($_GET['page']) && $_GET['page'] == "accueil") || !isset($_GET['page'])) && (isset($_GET['goto']) && $_GET['goto']=="contact" )) ? "class='current'" : "")?>><a class="<?=(((isset($_GET['page']) && $_GET['page'] == "accueil") || !isset($_GET['page'])) ? "smoothscroll" : "")?>" href="<?=(isset($_GET['page']) && $_GET['page'] == "accueil" || !isset($_GET['page']) ? "#" : "index.php?page=accueil&goto=")?>contact" id="demo4" data-trad="entete-nav-contact">Contact</a></li>
             <li <?=(isset($_GET['page']) && $_GET['page'] == "hobbies" ? "class='current'" : "" ) ?>><a href="index.php?page=hobbies" data-trad="entete-nav-hobbies">Hobbies</a></li>
+             <li <?=(isset($_GET['page']) && $_GET['page'] == "projects" ? "class='current'" : "" ) ?>><a href="index.php?page=projects" data-trad="entete-nav-project">Projects</a></li>
          </ul> <!-- end #nav -->
 
       </nav>
